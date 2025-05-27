@@ -72,7 +72,9 @@ function CreateOrder() {
           </div>
         </div>
 
-        <div className={`${!isSubmitting ? "relative" : ""} mb-4 flex flex-col gap-1 sm:mb-3 sm:flex-row sm:items-center sm:gap-0`}>
+        <div
+          className={`${!isSubmitting ? "relative" : ""} mb-4 flex flex-col gap-1 sm:mb-3 sm:flex-row sm:items-center sm:gap-0`}
+        >
           <label className="sm:basis-40">Address:</label>
           <div className="grow">
             <Input

@@ -17,7 +17,7 @@ function Button({ disabled = false, to, type, onClick, children }) {
     transition-colors duration-300 hover:bg-stone-400 focus:text-stone-800
     focus:bg-stone-400 focus:outline-none focus:ring hover:text-stone-800
     focus:ring-stone-200 focus:ring-offset-1 disabled:cursor-not-allowed`,
-    round: base + " px-2 py-1.5 md:px-3 py-2.5 text-sm"
+    round: base + " px-2 py-1.5 md:px-3 py-2.5 text-sm",
   };
 
   if (to) {

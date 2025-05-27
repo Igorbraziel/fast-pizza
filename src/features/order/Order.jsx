@@ -1,6 +1,4 @@
-// Test ID: IIDSAT
-
-import { useFetcher, useLoaderData, useParams } from "react-router-dom";
+import { useFetcher, useLoaderData } from "react-router-dom";
 import {
   calcMinutesLeft,
   formatCurrency,

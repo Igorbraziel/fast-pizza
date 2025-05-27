@@ -1,4 +1,3 @@
-import Input from "../../ui/Input";
 import Button from "../../ui/Button";
 import { useDispatch, useSelector } from "react-redux";
 import { useState } from "react";
@@ -13,13 +12,16 @@ function CreateUser() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    if(!username) return;
+    if (!username) return;
     dispatch(updateName(username));
     navigate("/menu");
   }
 
   return (
-    <form onSubmit={(e)=>handleSubmit(e)} className="flex flex-col items-center">
+    <form
+      onSubmit={(e) => handleSubmit(e)}
+      className="flex flex-col items-center"
+    >
       <p className="mb-4 text-sm text-stone-600 md:text-base">
         👋 Welcome! Please start by telling us your name:
       </p>

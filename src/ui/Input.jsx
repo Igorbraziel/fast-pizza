@@ -5,7 +5,7 @@ function Input({
   value = null,
   onChange = null,
   defaultValue = "",
-  disabled = false
+  disabled = false,
 }) {
   if (value && onChange) {
     return (
